@@ -1,0 +1,15 @@
+/ros2_ws/install/sanity_pkg/share/ament_index/resource_index/package_run_dependencies/sanity_pkg
+/ros2_ws/install/sanity_pkg/share/ament_index/resource_index/parent_prefix_path/sanity_pkg
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/environment/ament_prefix_path.sh
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/environment/ament_prefix_path.dsv
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/environment/path.sh
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/environment/path.dsv
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/local_setup.bash
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/local_setup.sh
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/local_setup.zsh
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/local_setup.dsv
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/package.dsv
+/ros2_ws/install/sanity_pkg/share/ament_index/resource_index/packages/sanity_pkg
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/cmake/sanity_pkgConfig.cmake
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/cmake/sanity_pkgConfig-version.cmake
+/ros2_ws/install/sanity_pkg/share/sanity_pkg/package.xml

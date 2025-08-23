@@ -1,0 +1,21 @@
+version: "3.8"
+services:
+  ros2_dimi:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sofianou_container
+    hostname: assessment_container
+    tty: true
+    stdin_open: true
+    working_dir: /ros2_ws
+    environment:
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - ./src:/ros2_ws/src:rw
+      - ./.colcon/build:/ros2_ws/build:rw
+      - ./.colcon/install:/ros2_ws/install:rw
+      - ./.colcon/log:/ros2_ws/log:rw
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    command: bash

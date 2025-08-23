@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && locale-gen en_US en_US.UTF-8 \
   && rm -rf /var/lib/apt/lists/*
 
-# ROS 2 apt source (classic keyring method — simple and fine)
+# ROS 2 key -source
 RUN curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.key | \
       gpg --dearmor -o /usr/share/keyrings/ros-archive-keyring.gpg \
   && echo "deb [signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] \

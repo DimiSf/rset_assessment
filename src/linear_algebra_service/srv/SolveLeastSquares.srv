@@ -1,0 +1,10 @@
+#This one is the custom service - it requests (A_rows,b_vector)  and responds (x_solution, x_transform, R_transform, d_transform    ) 
+geometry_msgs/Vector3[]  A_rows         # 3 rows when M=3
+geometry_msgs/Vector3    b_vector       # 3x1 vector
+
+---
+
+geometry_msgs/Vector3    x_solution     # solution x of Least Squares Problem
+geometry_msgs/Vector3    x_transform    # x' = R' x + d'
+float64[9]               R_transform    # R'
+geometry_msgs/Vector3    d_transform    # d' -> displacement
