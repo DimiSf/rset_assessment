@@ -1,0 +1,260 @@
+[0.000000] (-) TimerEvent: {}
+[0.000324] (linear_algebra_service) JobQueued: {'identifier': 'linear_algebra_service', 'dependencies': OrderedDict()}
+[0.000450] (linear_algebra_service) JobStarted: {'identifier': 'linear_algebra_service'}
+[0.005327] (linear_algebra_service) JobProgress: {'identifier': 'linear_algebra_service', 'progress': 'cmake'}
+[0.005602] (linear_algebra_service) Command: {'cmd': ['/usr/bin/cmake', '/ros2_ws/src/linear_algebra_service', '-DCMAKE_INSTALL_PREFIX=/ros2_ws/install/linear_algebra_service'], 'cwd': '/ros2_ws/build/linear_algebra_service', 'env': OrderedDict([('HOSTNAME', 'assessment_container'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/linear_algebra_service'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Etc/UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.042798] (linear_algebra_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.076974] (linear_algebra_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.081653] (linear_algebra_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099799] (-) TimerEvent: {}
+[0.128882] (linear_algebra_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.132968] (linear_algebra_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.133215] (linear_algebra_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.133411] (linear_algebra_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.135286] (linear_algebra_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.187400] (linear_algebra_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.191465] (linear_algebra_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.191658] (linear_algebra_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.191938] (linear_algebra_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.193491] (linear_algebra_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199848] (-) TimerEvent: {}
+[0.282564] (linear_algebra_service) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.299912] (-) TimerEvent: {}
+[0.333178] (linear_algebra_service) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.334634] (linear_algebra_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.338034] (linear_algebra_service) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.359616] (linear_algebra_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.399981] (-) TimerEvent: {}
+[0.500147] (-) TimerEvent: {}
+[0.525025] (linear_algebra_service) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.600237] (-) TimerEvent: {}
+[0.634536] (linear_algebra_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.700310] (-) TimerEvent: {}
+[0.774600] (linear_algebra_service) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.787806] (linear_algebra_service) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[0.788952] (linear_algebra_service) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.800360] (-) TimerEvent: {}
+[0.805111] (linear_algebra_service) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[0.805242] (linear_algebra_service) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.805300] (linear_algebra_service) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.805333] (linear_algebra_service) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.817527] (linear_algebra_service) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[0.845906] (linear_algebra_service) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.865625] (linear_algebra_service) StdoutLine: {'line': b'-- Generating done\n'}
+[0.871698] (linear_algebra_service) StdoutLine: {'line': b'-- Build files have been written to: /ros2_ws/build/linear_algebra_service\n'}
+[0.876430] (linear_algebra_service) CommandEnded: {'returncode': 0}
+[0.876750] (linear_algebra_service) JobProgress: {'identifier': 'linear_algebra_service', 'progress': 'build'}
+[0.877266] (linear_algebra_service) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros2_ws/build/linear_algebra_service', '--', '-j24', '-l24'], 'cwd': '/ros2_ws/build/linear_algebra_service', 'env': OrderedDict([('HOSTNAME', 'assessment_container'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/linear_algebra_service'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Etc/UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.900427] (-) TimerEvent: {}
+[0.905001] (linear_algebra_service) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.912011] (linear_algebra_service) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.917286] (linear_algebra_service) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_linear_algebra_service\n'}
+[1.000522] (-) TimerEvent: {}
+[1.040007] (linear_algebra_service) StdoutLine: {'line': b'running egg_info\n'}
+[1.040364] (linear_algebra_service) StdoutLine: {'line': b'creating linear_algebra_service.egg-info\n'}
+[1.040510] (linear_algebra_service) StdoutLine: {'line': b'writing linear_algebra_service.egg-info/PKG-INFO\n'}
+[1.040588] (linear_algebra_service) StdoutLine: {'line': b'writing dependency_links to linear_algebra_service.egg-info/dependency_links.txt\n'}
+[1.040669] (linear_algebra_service) StdoutLine: {'line': b'writing top-level names to linear_algebra_service.egg-info/top_level.txt\n'}
+[1.040759] (linear_algebra_service) StdoutLine: {'line': b"writing manifest file 'linear_algebra_service.egg-info/SOURCES.txt'\n"}
+[1.042057] (linear_algebra_service) StdoutLine: {'line': b"reading manifest file 'linear_algebra_service.egg-info/SOURCES.txt'\n"}
+[1.042354] (linear_algebra_service) StdoutLine: {'line': b"writing manifest file 'linear_algebra_service.egg-info/SOURCES.txt'\n"}
+[1.061712] (linear_algebra_service) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_linear_algebra_service_egg\n'}
+[1.076995] (linear_algebra_service) StdoutLine: {'line': b'[  6%] Built target linear_algebra_service__cpp\n'}
+[1.084683] (linear_algebra_service) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.084817] (linear_algebra_service) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.084870] (linear_algebra_service) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.084940] (linear_algebra_service) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding C object CMakeFiles/linear_algebra_service__rosidl_generator_c.dir/rosidl_generator_c/linear_algebra_service/srv/detail/solve_least_squares__functions.c.o\x1b[0m\n'}
+[1.100580] (-) TimerEvent: {}
+[1.136054] (linear_algebra_service) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library liblinear_algebra_service__rosidl_generator_c.so\x1b[0m\n'}
+[1.162467] (linear_algebra_service) StdoutLine: {'line': b'[ 22%] Built target linear_algebra_service__rosidl_generator_c\n'}
+[1.169294] (linear_algebra_service) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.169658] (linear_algebra_service) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.169715] (linear_algebra_service) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.200668] (-) TimerEvent: {}
+[1.220282] (linear_algebra_service) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/linear_algebra_service__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/linear_algebra_service/srv/solve_least_squares__type_support.cpp.o\x1b[0m\n'}
+[1.245124] (linear_algebra_service) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/linear_algebra_service__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/linear_algebra_service/srv/detail/solve_least_squares__type_support.cpp.o\x1b[0m\n'}
+[1.256304] (linear_algebra_service) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/linear_algebra_service__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/linear_algebra_service/srv/detail/dds_fastrtps/solve_least_squares__type_support.cpp.o\x1b[0m\n'}
+[1.300737] (-) TimerEvent: {}
+[1.319455] (linear_algebra_service) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/linear_algebra_service__rosidl_typesupport_c.dir/rosidl_typesupport_c/linear_algebra_service/srv/solve_least_squares__type_support.cpp.o\x1b[0m\n'}
+[1.334474] (linear_algebra_service) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/linear_algebra_service__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/linear_algebra_service/srv/detail/solve_least_squares__type_support_c.cpp.o\x1b[0m\n'}
+[1.339479] (linear_algebra_service) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/linear_algebra_service__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/linear_algebra_service/srv/detail/solve_least_squares__type_support.c.o\x1b[0m\n'}
+[1.341663] (linear_algebra_service) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library liblinear_algebra_service__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.369557] (linear_algebra_service) StdoutLine: {'line': b'[ 54%] Built target linear_algebra_service__rosidl_typesupport_c\n'}
+[1.372432] (linear_algebra_service) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library liblinear_algebra_service__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.392927] (linear_algebra_service) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library liblinear_algebra_service__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.394790] (linear_algebra_service) StdoutLine: {'line': b'[ 61%] Built target linear_algebra_service__rosidl_typesupport_introspection_c\n'}
+[1.400798] (-) TimerEvent: {}
+[1.421536] (linear_algebra_service) StdoutLine: {'line': b'[ 61%] Built target linear_algebra_service__rosidl_typesupport_cpp\n'}
+[1.489934] (linear_algebra_service) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library liblinear_algebra_service__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.500867] (-) TimerEvent: {}
+[1.515443] (linear_algebra_service) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library liblinear_algebra_service__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.527063] (linear_algebra_service) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library liblinear_algebra_service__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.537495] (linear_algebra_service) StdoutLine: {'line': b'[ 70%] Built target linear_algebra_service__rosidl_typesupport_introspection_cpp\n'}
+[1.560596] (linear_algebra_service) StdoutLine: {'line': b'[ 70%] Built target linear_algebra_service__rosidl_typesupport_fastrtps_cpp\n'}
+[1.571826] (linear_algebra_service) StdoutLine: {'line': b'[ 70%] Built target linear_algebra_service__rosidl_typesupport_fastrtps_c\n'}
+[1.584839] (linear_algebra_service) StdoutLine: {'line': b'[ 70%] Built target linear_algebra_service\n'}
+[1.597718] (linear_algebra_service) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.600925] (-) TimerEvent: {}
+[1.701083] (-) TimerEvent: {}
+[1.801005] (linear_algebra_service) StdoutLine: {'line': b'[ 74%] Built target linear_algebra_service__py\n'}
+[1.801208] (-) TimerEvent: {}
+[1.814448] (linear_algebra_service) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/linear_algebra_service__rosidl_generator_py.dir/rosidl_generator_py/linear_algebra_service/srv/_solve_least_squares_s.c.o\x1b[0m\n'}
+[1.901293] (-) TimerEvent: {}
+[1.905937] (linear_algebra_service) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/linear_algebra_service/liblinear_algebra_service__rosidl_generator_py.so\x1b[0m\n'}
+[1.933533] (linear_algebra_service) StdoutLine: {'line': b'[ 80%] Built target linear_algebra_service__rosidl_generator_py\n'}
+[1.946959] (linear_algebra_service) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/linear_algebra_service__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/linear_algebra_service/_linear_algebra_service_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.947075] (linear_algebra_service) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/linear_algebra_service__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/linear_algebra_service/_linear_algebra_service_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.947396] (linear_algebra_service) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/linear_algebra_service__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/linear_algebra_service/_linear_algebra_service_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[2.001371] (-) TimerEvent: {}
+[2.006060] (linear_algebra_service) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.006571] (linear_algebra_service) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.010474] (linear_algebra_service) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[2.028178] (linear_algebra_service) StdoutLine: {'line': b'[100%] Built target linear_algebra_service__rosidl_typesupport_c__pyext\n'}
+[2.028506] (linear_algebra_service) StdoutLine: {'line': b'[100%] Built target linear_algebra_service__rosidl_typesupport_introspection_c__pyext\n'}
+[2.034426] (linear_algebra_service) StdoutLine: {'line': b'[100%] Built target linear_algebra_service__rosidl_typesupport_fastrtps_c__pyext\n'}
+[2.042715] (linear_algebra_service) CommandEnded: {'returncode': 0}
+[2.043056] (linear_algebra_service) JobProgress: {'identifier': 'linear_algebra_service', 'progress': 'install'}
+[2.049174] (linear_algebra_service) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros2_ws/build/linear_algebra_service'], 'cwd': '/ros2_ws/build/linear_algebra_service', 'env': OrderedDict([('HOSTNAME', 'assessment_container'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros2_ws/build/linear_algebra_service'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('TZ', 'Etc/UTC'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.054467] (linear_algebra_service) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.054660] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/ament_index/resource_index/rosidl_interfaces/linear_algebra_service\n'}
+[2.054816] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service\n'}
+[2.054924] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg\n'}
+[2.055001] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.055125] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv\n'}
+[2.055246] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail\n'}
+[2.055327] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__functions.c\n'}
+[2.055426] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__functions.h\n'}
+[2.055539] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__struct.h\n'}
+[2.055641] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__type_support.h\n'}
+[2.055742] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/solve_least_squares.h\n'}
+[2.055914] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/environment/library_path.sh\n'}
+[2.056043] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/environment/library_path.dsv\n'}
+[2.056206] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_generator_c.so\n'}
+[2.056461] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_generator_c.so" to ""\n'}
+[2.056503] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service\n'}
+[2.056544] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg\n'}
+[2.056578] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.056693] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv\n'}
+[2.056771] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail\n'}
+[2.056813] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__rosidl_typesupport_fastrtps_c.h\n'}
+[2.056909] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_fastrtps_c.so\n'}
+[2.057238] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[2.057317] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service\n'}
+[2.057383] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg\n'}
+[2.057416] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.057472] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv\n'}
+[2.057581] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail\n'}
+[2.057617] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__rosidl_typesupport_introspection_c.h\n'}
+[2.057674] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__type_support.c\n'}
+[2.057831] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_introspection_c.so\n'}
+[2.058162] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_introspection_c.so" to ""\n'}
+[2.058268] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_c.so\n'}
+[2.058453] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_c.so" to ""\n'}
+[2.058507] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service\n'}
+[2.058562] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg\n'}
+[2.058591] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[2.058659] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv\n'}
+[2.058700] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/solve_least_squares.hpp\n'}
+[2.058797] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail\n'}
+[2.058836] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__struct.hpp\n'}
+[2.058946] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__type_support.hpp\n'}
+[2.059052] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__traits.hpp\n'}
+[2.059170] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__builder.hpp\n'}
+[2.059292] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service\n'}
+[2.059332] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg\n'}
+[2.059373] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.059468] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv\n'}
+[2.059512] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail\n'}
+[2.059552] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.059652] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/dds_fastrtps\n'}
+[2.059740] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.060064] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[2.060101] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service\n'}
+[2.060145] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv\n'}
+[2.060187] (linear_algebra_service) StdoutLine: {'line': b'-- Up-to-date: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail\n'}
+[2.060220] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.060324] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/include/linear_algebra_service/linear_algebra_service/srv/detail/solve_least_squares__type_support.cpp\n'}
+[2.060472] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_introspection_cpp.so\n'}
+[2.060824] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[2.060869] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_cpp.so\n'}
+[2.061131] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_typesupport_cpp.so" to ""\n'}
+[2.061180] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/environment/pythonpath.sh\n'}
+[2.061285] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/environment/pythonpath.dsv\n'}
+[2.061391] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service-0.0.0-py3.10.egg-info\n'}
+[2.061523] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.061633] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.061733] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.061832] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.061947] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service\n'}
+[2.062015] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/_linear_algebra_service_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.062140] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.062260] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/liblinear_algebra_service__rosidl_generator_py.so\n'}
+[2.062385] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/__init__.py\n'}
+[2.062479] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.062594] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/_linear_algebra_service_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.062711] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/srv\n'}
+[2.062768] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/srv/__init__.py\n'}
+[2.062871] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/srv/_solve_least_squares_s.c\n'}
+[2.063015] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/srv/_solve_least_squares.py\n'}
+[2.063138] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/_linear_algebra_service_s.ep.rosidl_typesupport_c.c\n'}
+[2.063261] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.084239] (linear_algebra_service) StdoutLine: {'line': b"Listing '/ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service'...\n"}
+[2.084322] (linear_algebra_service) StdoutLine: {'line': b"Compiling '/ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/__init__.py'...\n"}
+[2.084354] (linear_algebra_service) StdoutLine: {'line': b"Listing '/ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/srv'...\n"}
+[2.084384] (linear_algebra_service) StdoutLine: {'line': b"Compiling '/ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/srv/__init__.py'...\n"}
+[2.084412] (linear_algebra_service) StdoutLine: {'line': b"Compiling '/ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/srv/_solve_least_squares.py'...\n"}
+[2.087053] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.087382] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.087551] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.087829] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.087997] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.088288] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/local/lib/python3.10/dist-packages/linear_algebra_service/linear_algebra_service_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[2.088370] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_generator_py.so\n'}
+[2.088686] (linear_algebra_service) StdoutLine: {'line': b'-- Set runtime path of "/ros2_ws/install/linear_algebra_service/lib/liblinear_algebra_service__rosidl_generator_py.so" to ""\n'}
+[2.088777] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/srv/SolveLeastSquares.idl\n'}
+[2.088925] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/srv/SolveLeastSquares.srv\n'}
+[2.089064] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/srv/SolveLeastSquares_Request.msg\n'}
+[2.089210] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/srv/SolveLeastSquares_Response.msg\n'}
+[2.089390] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/ament_index/resource_index/package_run_dependencies/linear_algebra_service\n'}
+[2.089581] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/ament_index/resource_index/parent_prefix_path/linear_algebra_service\n'}
+[2.089733] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/environment/ament_prefix_path.sh\n'}
+[2.089884] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/environment/ament_prefix_path.dsv\n'}
+[2.090030] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/environment/path.sh\n'}
+[2.090201] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/environment/path.dsv\n'}
+[2.090348] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/local_setup.bash\n'}
+[2.090460] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/local_setup.sh\n'}
+[2.090582] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/local_setup.zsh\n'}
+[2.090696] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/local_setup.dsv\n'}
+[2.090813] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/package.dsv\n'}
+[2.090962] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/ament_index/resource_index/packages/linear_algebra_service\n'}
+[2.091131] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_generator_cExport.cmake\n'}
+[2.091267] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.091419] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.091547] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.091681] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_service__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.091819] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_service__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.091955] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_service__rosidl_typesupport_cExport.cmake\n'}
+[2.092086] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_service__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.092234] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_generator_cppExport.cmake\n'}
+[2.092366] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.092502] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.092640] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_service__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.092772] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_service__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.092910] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_service__rosidl_typesupport_cppExport.cmake\n'}
+[2.093169] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_service__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.093377] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_generator_pyExport.cmake\n'}
+[2.093543] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/export_linear_algebra_service__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.093680] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/rosidl_cmake-extras.cmake\n'}
+[2.093801] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.093923] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.094053] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.094183] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.094324] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.094444] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.094578] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_serviceConfig.cmake\n'}
+[2.094679] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/cmake/linear_algebra_serviceConfig-version.cmake\n'}
+[2.094807] (linear_algebra_service) StdoutLine: {'line': b'-- Installing: /ros2_ws/install/linear_algebra_service/share/linear_algebra_service/package.xml\n'}
+[2.096672] (linear_algebra_service) CommandEnded: {'returncode': 0}
+[2.102011] (-) TimerEvent: {}
+[2.108550] (linear_algebra_service) JobEnded: {'identifier': 'linear_algebra_service', 'rc': 0}
+[2.109147] (-) EventReactorShutdown: {}

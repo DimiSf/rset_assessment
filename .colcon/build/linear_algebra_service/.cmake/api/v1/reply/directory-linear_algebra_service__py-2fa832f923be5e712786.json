@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "linear_algebra_service__py",
+		"source" : "/ros2_ws/build/linear_algebra_service/linear_algebra_service__py"
+	}
+}

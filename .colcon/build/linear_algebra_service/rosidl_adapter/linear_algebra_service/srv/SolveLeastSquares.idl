@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from linear_algebra_service/srv/SolveLeastSquares.srv
+// generated code does not contain a copyright notice
+
+
+module linear_algebra_service {
+  module srv {
+    struct SolveLeastSquares_Request {
+      sequence<double> a;
+
+      sequence<double> b;
+    };
+    struct SolveLeastSquares_Response {
+      sequence<double> x_solution;
+
+      sequence<double> x_transform;
+
+      sequence<double> r_transform;
+
+      sequence<double> d_transform;
+    };
+  };
+};

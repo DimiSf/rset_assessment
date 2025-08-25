@@ -1,0 +1,4 @@
+srv/SolveLeastSquares.idl
+srv/SolveLeastSquares.srv
+srv/SolveLeastSquares_Request.msg
+srv/SolveLeastSquares_Response.msg

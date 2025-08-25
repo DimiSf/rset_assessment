@@ -1,6 +1,0 @@
-Invoking command in '/ros2_ws/build/sanity_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/sanity_pkg -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/sanity_pkg
-Invoked command in '/ros2_ws/build/sanity_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros2_ws/src/sanity_pkg -DCMAKE_INSTALL_PREFIX=/ros2_ws/install/sanity_pkg
-Invoking command in '/ros2_ws/build/sanity_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/sanity_pkg -- -j16 -l16
-Invoked command in '/ros2_ws/build/sanity_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros2_ws/build/sanity_pkg -- -j16 -l16
-Invoking command in '/ros2_ws/build/sanity_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/sanity_pkg
-Invoked command in '/ros2_ws/build/sanity_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros2_ws/build/sanity_pkg
