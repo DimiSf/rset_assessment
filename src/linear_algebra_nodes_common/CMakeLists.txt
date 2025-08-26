@@ -8,15 +8,33 @@ endif()
 # Dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(linear_algebra_service REQUIRED)  # your .srv package
+find_package(linear_algebra_service REQUIRED)
+find_package(yaml-cpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 # Executables
 add_executable(server_node src/server_node.cpp)
-ament_target_dependencies(server_node rclcpp linear_algebra_service)
-
+ament_target_dependencies(server_node
+  rclcpp
+  linear_algebra_service
+  geometry_msgs
+)
 
 install(TARGETS
   server_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+add_executable(client_node src/client_node.cpp)
+ament_target_dependencies(client_node
+  rclcpp
+  linear_algebra_service
+  geometry_msgs
+)
+target_link_libraries(client_node yaml-cpp)
+
+install(TARGETS
+  client_node
   DESTINATION lib/${PROJECT_NAME}
 )
 

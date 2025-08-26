@@ -1,25 +1,21 @@
 version: "3.8"
+
 services:
-  ros2_dimi:
+  ros2_dev:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: sofianou_container
+    container_name: sofianou_dev
     hostname: assessment_container
     tty: true
-    stdin_open: true  # in order to use interactive shell
+    stdin_open: true
     working_dir: /ros2_ws
     environment:
-      - DISPLAY=${DISPLAY}                # allow GUI apps to use host display
+      - DISPLAY=${DISPLAY}                # GUI passthrough
       - QT_X11_NO_MITSHM=1
       - XAUTHORITY=${XAUTHORITY:-$HOME/.Xauthority}
     volumes:
-      - ./src:/ros2_ws/src:rw
-      # persist colcon artifacts (speedy rebuilds)
-      - ./.colcon/build:/ros2_ws/build:rw
-      - ./.colcon/install:/ros2_ws/install:rw
-      - ./.colcon/log:/ros2_ws/log:rw
-      # X11 socket + auth so RViz can open windows on host
-      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ./src:/ros2_ws/src:rw             # Only mount source code
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw  # For GUI apps like RViz
       - ${XAUTHORITY:-$HOME/.Xauthority}:/root/.Xauthority:rw
     command: bash

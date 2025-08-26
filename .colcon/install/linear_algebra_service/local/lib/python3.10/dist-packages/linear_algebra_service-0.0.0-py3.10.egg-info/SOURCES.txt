@@ -1,6 +1,0 @@
-setup.py
-linear_algebra_service/__init__.py
-linear_algebra_service.egg-info/PKG-INFO
-linear_algebra_service.egg-info/SOURCES.txt
-linear_algebra_service.egg-info/dependency_links.txt
-linear_algebra_service.egg-info/top_level.txt
