@@ -25,9 +25,15 @@ ament_target_dependencies(joint_publisher_node
   Eigen3
 )
 
-# Install
+# Install binary
 install(TARGETS
   joint_publisher_node
   DESTINATION lib/${PROJECT_NAME})
+
+# Install launch and rviz files
+install(
+  DIRECTORY launch rviz
+  DESTINATION share/${PROJECT_NAME}
+)
 
 ament_package()

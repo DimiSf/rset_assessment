@@ -3,6 +3,10 @@
 #include <thread>
 #include <mutex>
 #include <condition_variable>
+#include <Eigen/Dense>
+#include <Eigen/Geometry>
+#include <cmath>
+#include <random>
 
 #include "linear_algebra_service/srv/solve_least_squares.hpp"
 #include "geometry_msgs/msg/vector3.hpp"
@@ -47,28 +51,65 @@ private:
   void handle_service(const std::shared_ptr<Solve::Request> req,
                       std::shared_ptr<Solve::Response> res)
   {
-    const size_t a_size = req->a.size();
-    const size_t b_size = req->b.size();
-
-    if (a_size == 0 || (a_size % 3) != 0) {
-      RCLCPP_WARN(this->get_logger(),
-                  "Invalid 'a' size=%zu (must be multiple of 3).", a_size);
+    // Mx3 A from Vector3[] rows
+    const size_t M = req->a.size();
+    if (M < 3) {
+      RCLCPP_ERROR(this->get_logger(), "Need at least 3 rows (M>=3), got %zu", M);
+      // Fill something sane and return
+      res->x_solution.x = res->x_solution.y = res->x_solution.z = 0.0;
+      res->x_transform = res->x_solution;
+      res->r_transform = {1,0,0, 0,1,0, 0,0,1};
+      res->d_transform.x = res->d_transform.y = res->d_transform.z = 0.0;
+      return;
     }
-    if (b_size != 3) {
-      RCLCPP_WARN(this->get_logger(),
-                  "Invalid 'b' size=%zu (must be exactly 3).", b_size);
+
+    Eigen::MatrixXd A(M, 3);
+    for (size_t i = 0; i < M; ++i) {
+      A(i,0) = req->a[i].x;
+      A(i,1) = req->a[i].y;
+      A(i,2) = req->a[i].z;
     }
 
-    const size_t M = (a_size / 3);
-    RCLCPP_INFO(this->get_logger(), "Request: A=(%zux3), b=(%zu)", M, b_size);
+    // 3x1 b from Vector3 (not an array)
+    Eigen::Vector3d b(req->b.x, req->b.y, req->b.z);
 
-    // Placeholders (will be Eigen math later)
-    res->x_solution  = {0.0, 0.0, 0.0};
-    res->r_transform = {1.0,0.0,0.0, 0.0,1.0,0.0, 0.0,0.0,1.0};
-    res->d_transform = {0.0, 0.0, 0.0};
-    res->x_transform = res->x_solution;
+    // Least-squares solution x = argmin ||Ax - b||
+    Eigen::Vector3d x = A.colPivHouseholderQr().solve(b);
 
-    RCLCPP_INFO(this->get_logger(), "Responded with placeholder solution.");
+    // Random rotation R' and displacement d'
+    std::mt19937 rng(std::random_device{}());
+    std::uniform_real_distribution<double> U(0.0, 1.0);
+
+    Eigen::Vector3d axis(U(rng), U(rng), U(rng));
+    if (axis.norm() < 1e-12) axis = Eigen::Vector3d(1,0,0);
+    axis.normalize();
+    double angle = 2.0 * M_PI * U(rng);
+    Eigen::Matrix3d Rprime = Eigen::AngleAxisd(angle, axis).toRotationMatrix();
+
+    Eigen::Vector3d dprime(U(rng), U(rng), U(rng));
+    Eigen::Vector3d xprime = Rprime * x + dprime;
+
+    // Fill response (Vector3 needs .x/.y/.z assignments)
+    res->x_solution.x = x(0);
+    res->x_solution.y = x(1);
+    res->x_solution.z = x(2);
+
+    res->x_transform.x = xprime(0);
+    res->x_transform.y = xprime(1);
+    res->x_transform.z = xprime(2);
+
+    // Row-major 3x3 (9 elements)
+    res->r_transform = {
+      Rprime(0,0), Rprime(0,1), Rprime(0,2),
+      Rprime(1,0), Rprime(1,1), Rprime(1,2),
+      Rprime(2,0), Rprime(2,1), Rprime(2,2)
+    };
+
+    res->d_transform.x = dprime(0);
+    res->d_transform.y = dprime(1);
+    res->d_transform.z = dprime(2);
+
+    RCLCPP_INFO(this->get_logger(), "Solved LSQ with M=%zu; sent x', R', d'", M);
   }
 
   // Subscriber callback

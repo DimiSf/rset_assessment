@@ -32,6 +32,9 @@
         "/opt/ros/humble/local/lib/python3.10/dist-packages"
     ],
     "files.associations": {
-        "geometry": "cpp"
+        "geometry": "cpp",
+        "mutex": "cpp",
+        "condition_variable": "cpp",
+        "fstream": "cpp"
     }
 }

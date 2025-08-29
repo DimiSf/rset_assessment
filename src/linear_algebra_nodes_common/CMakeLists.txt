@@ -12,6 +12,9 @@ find_package(linear_algebra_service REQUIRED)
 find_package(yaml-cpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 
+# >>> ADD THESE TWO LINES <<<
+find_package(Eigen3 3.3 REQUIRED NO_MODULE)
+
 # Executables
 add_executable(server_node src/server_node.cpp)
 ament_target_dependencies(server_node
@@ -19,6 +22,8 @@ ament_target_dependencies(server_node
   linear_algebra_service
   geometry_msgs
 )
+# >>> ADD THIS LINE <<<
+target_link_libraries(server_node Eigen3::Eigen)
 
 install(TARGETS
   server_node
@@ -31,7 +36,8 @@ ament_target_dependencies(client_node
   linear_algebra_service
   geometry_msgs
 )
-target_link_libraries(client_node yaml-cpp)
+# already linking yaml-cpp, now also link Eigen:
+target_link_libraries(client_node Eigen3::Eigen yaml-cpp)
 
 install(TARGETS
   client_node

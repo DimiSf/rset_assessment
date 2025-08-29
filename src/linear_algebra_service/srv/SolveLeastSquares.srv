@@ -1,7 +1,8 @@
-float64[] a
-float64[] b
+geometry_msgs/Vector3[] a       # M rows of A 
+geometry_msgs/Vector3   b       # 3x1 vector b
+
 ---
-float64[] x_solution
-float64[] x_transform
-float64[] r_transform
-float64[] d_transform
+geometry_msgs/Vector3   x_solution    
+geometry_msgs/Vector3   x_transform   
+float64[9]              r_transform   
+geometry_msgs/Vector3   d_transform   
